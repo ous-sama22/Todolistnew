@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/taskListFragment">
+
+    <fragment
+        android:id="@+id/taskListFragment"
+        android:name="com.oussama.todolistapp.tasks.TaskListFragment"
+        android:label="Tasks">
+        <action
+            android:id="@+id/action_taskListFragment_to_taskCreationFragment"
+            app:destination="@id/taskCreationFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/taskCreationFragment"
+        android:name="com.oussama.todolistapp.tasks.TaskCreationFragment"
+        android:label="New Task">
+        <argument
+            android:name="taskId"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+
+</navigation>

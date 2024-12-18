@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Todo List App</string>
+
+    <!-- Auth Strings -->
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="username">Username</string>
+
+    <!-- Task Strings -->
+    <string name="new_task">New Task</string>
+    <string name="edit_task">Edit Task</string>
+    <string name="task_title">Title</string>
+    <string name="task_description">Description</string>
+    <string name="start_date">Start Date</string>
+    <string name="end_date">End Date</string>
+    <string name="priority">Priority</string>
+    <string name="priority_high">High</string>
+    <string name="priority_medium">Medium</string>
+    <string name="priority_low">Low</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+
+    <!-- Error Messages -->
+    <string name="error_empty_title">Title is required</string>
+    <string name="error_empty_description">Description is required</string>
+    <string name="error_invalid_dates">End date must be after start date</string>
+
+    <!-- Menu Items -->
+    <string name="sort_by_date">Sort by Date</string>
+    <string name="sort_by_priority">Sort by Priority</string>
+    <string name="filter_completed">Show Completed</string>
+    <string name="filter_pending">Show Pending</string>
+    <string name="logout">Logout</string>
+</resources>

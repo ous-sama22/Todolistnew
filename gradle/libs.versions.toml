@@ -1,0 +1,38 @@
+[versions]
+# Existing versions you already have
+activity = "1.8.2"
+agp = "8.7.2"
+appcompat = "1.6.1"
+constraintlayout = "2.1.4"
+coreKtx = "1.12.0"
+espressoCore = "3.5.1"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+kotlin = "1.9.0"
+material = "1.11.0"
+
+# Add new versions
+navigation = "2.7.7"
+lifecycle = "2.7.0"
+
+[libraries]
+# Your existing libraries
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+
+# Add new libraries
+androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigation" }
+androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigation" }
+androidx-viewpager2 = { group = "androidx.viewpager2", name = "viewpager2", version = "1.0.0" }
+androidx-lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
+androidx-lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycle" }
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+
